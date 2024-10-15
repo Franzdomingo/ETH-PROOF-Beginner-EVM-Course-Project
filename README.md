@@ -12,7 +12,7 @@ This project is meant to teach beginners the basics of the Ethereum Virtual Mach
 - This contract serves as a basic example of how tokens work on the Ethereum blockchain and can be used as a foundation for more complex token designs.
 
 # Getting Started
-# Installing
+Installing
 Use Remix IDE or any Solidity-compatible environment.
 The provided Solidity contract is all you need to deploy (no additional files or modifications required).
 # Executing Program
@@ -22,7 +22,9 @@ The provided Solidity contract is all you need to deploy (no additional files or
 4. Use the Remix interface to interact with the contract:
 5. Use the mint function to mint tokens for an address.
 6. Use the burn function to burn tokens from an address.
-
+# Help
+If you encounter issues compiling or executing the contract, try adding a caret (^) to the pragma Solidity statement. For example:
+```pragma solidity ^0.8.0;```
 # Authors
 Contributors:
 Franz Phillip G. Domingo
